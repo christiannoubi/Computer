@@ -40,9 +40,7 @@ public:
     string getInhalt () {
         stringstream s;
         for (auto e: inhalt) {
-            int j = 1;
-            s << j<<"-" <<  e.getName() <<"\n";
-            j++;
+            s <<  e.getName() <<"\n";
         }
         return s.str();
     }

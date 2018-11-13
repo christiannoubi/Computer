@@ -50,12 +50,10 @@ do  {
     }
 } while (wahl!=0);
 
-
     cout << "==================Folgende wurde eingekauft=================" << endl;
     cout << einkaufskorb->getInhalt() <<endl;
     cout << "Gesamtcomputer:"<<einkaufskorb->getAnzahl() <<endl;
     cout << "Gesamtpreis:"<<einkaufskorb->gesamtPreis() <<endl;
-    cout << "==================wollen Sie weiter  einkaufen?============" << endl;
     return 0;
 
 }

@@ -40,7 +40,9 @@ public:
     string getInhalt () {
         stringstream s;
         for (auto e: inhalt) {
-            s <<"Mein Computer heißt: "<<  e.getName() << " ,es kostet : "<<e.getPreis() <<" ,er hat die Farbe : "<< e.getFarbe() << " et sa rahm est: "<<e.getRahm() << endl;
+            int j = 1;
+            s << j<<"-" <<  e.getName() <<"\n";
+            j++;
         }
         return s.str();
     }
